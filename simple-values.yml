@@ -1,0 +1,16 @@
+---
+namespace: backstage
+app-config:
+  integrations:
+    gitlab:
+      - host: gitlab.eng.vmware.com
+        apiBaseUrl: https://gitlab.eng.vmware.com/api/v4
+        token: <GITLAB_TOKEN> # Replace with your token!
+  catalog:
+    locations:
+      # Sample Blank Catalog
+      - type: url
+        target: https://github.com/dambor/bs-catalog/blob/main/sample-catalog/blank/catalog-components.yaml
+      # Sample Yelb Application Catalog
+      - type: url
+        target: https://github.com/dambor/bs-catalog/blob/main/sample-catalog/yelb-demo/yelb-catalog/yelb-components.yaml
