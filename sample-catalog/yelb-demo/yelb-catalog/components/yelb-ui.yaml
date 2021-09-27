@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: yelb-ui
+  description: Yelb UI App
+  tags:
+    - javascript
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=yelb-ui,tier=frontend'
+  links:
+    - url: https://admin.example-org.com
+      title: 'Educates Workshop'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: yelb
+

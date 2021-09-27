@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  description: A collection of all Backstage example components
+spec:
+  targets:
+    - ./components/yelb-ui.yaml
+    - ./components/redis-server.yaml
+    - ./components/yelb-db.yaml
+    - ./components/yelb-appserver.yaml
+    - ./groups/org.yaml
+    - ./systems/yelb-system.yaml
+    - ./resources/yelb-db-resource.yaml
+    - ./domains/cloudapps-domain.yaml

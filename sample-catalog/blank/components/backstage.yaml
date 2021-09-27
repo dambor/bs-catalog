@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: Project Star Backstage
+  tags:
+    - apps-v1
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=backstage'
+spec:
+  type: service
+  lifecycle: alpha
+  owner: default-team
+  system: backstage

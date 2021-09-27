@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: yelb-db
+  description: Stores Yelb application Database
+spec:
+  type: database
+  owner: team-a
+  system: yelb
